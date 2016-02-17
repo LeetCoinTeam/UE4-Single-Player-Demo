@@ -181,8 +181,8 @@ bool ALEETDEMO2Character::Run(FString PlatformID)
 	UE_LOG(LogTemp, Log, TEXT("LeetPlatformId: %s"), *LeetPlatformId);
 	UE_LOG(LogTemp, Log, TEXT("Object is: %s"), *GetName());
 
-	FString ServerAPIKey = "A2bTPp-OBuFlN-NkIIKK-2ZXmBs";
-	FString ServerAPISecret = "9h0PNydxxYgmAHy9j2Hqgh41qebCPh";
+	FString ServerAPIKey = "XXXX"; // Grab this off leet sandbox
+	FString ServerAPISecret = "XXX"; // Grab this off leet sandbox
 	FString nonceString = "10951350917635";
 	FString encryption = "off";  // Allowing unencrypted on sandbox for now.  
 
